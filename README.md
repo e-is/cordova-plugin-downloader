@@ -1,14 +1,22 @@
 Android Downloader Cordova plugin
 ========
 
+Forked from [integrator-cordova-plugin-downloader](https://github.com/Luka313/integrator-cordova-plugin-downloader)
+
+
 This plugin is designed to support downloading files using Android DownloadManager.
 
+Supported platforms
+
+- [ ] Web
+- [x] Android
+- [ ] iOS
 
 Installation
 --------
 
 ```bash
-cordova plugin add https://github.com/nelsonbarrac/integrator-cordova-plugin-downloader
+cordova plugin add @e-is/cordova-plugin-downloader
 ```
 
 Usage
@@ -51,12 +59,13 @@ Starts download and returns location uri on completion
 ```javascript
 
 cordova.plugins.Downloader.download(request,
-		(location) => { alert('File is downloaded at' + location) },
+		(location) => { alert('File is downloaded at ' + location) },
 		(err) => { alert(err)})
 ```
 
 ## Credits and License ##
 
+Based on Luka313's [`integrator-cordova-plugin-downloader`](https://github.com/Luka313/integrator-cordova-plugin-downloader)
 Based on Emil Bay's [`cordova-plugin-android-downloadmanager`](https://github.com/emilbayes/cordova-plugin-android-downloadmanager) 
 
 
