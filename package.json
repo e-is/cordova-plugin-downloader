@@ -1,6 +1,6 @@
 {
   "name": "@e-is/cordova-plugin-downloader",
-  "version": "1.1.1-alpha6",
+  "version": "1.1.2",
   "description": "Downloader",
   "cordova": {
     "id": "integrator-cordova-plugin-downloader",
@@ -12,12 +12,15 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "main": "www/Downloader.js",
-  "author": "Luka313",
+  "author": "Emil Bay",
   "contributors": [
     {
-      "name": "Benoit Lavenier",
-      "email": "benoit.lavenier@e-is.pro"
+      "name": "Luka313",
+      "url": "https://github.com/Luka313"
+    },
+    {
+      "name": "E-IS",
+      "email": "contact@e-is.pro"
     }
   ],
   "repository": {
@@ -25,16 +28,10 @@
     "url": "git+https://github.com/e-is/cordova-plugin-downloader.git"
   },
   "bugs": {
-    "url": "https://github.com/Luka313/integrator-cordova-plugin-downloader/issues"
-  },
-  "scripts": {
-    "eslint": "./node_modules/.bin/eslint www/Downloader.js"
+    "url": "https://github.com/e-is/cordova-plugin-downloader/issues"
   },
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "eslint": "~8.57.1"
   }
 }
